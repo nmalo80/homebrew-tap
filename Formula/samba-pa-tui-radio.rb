@@ -3,8 +3,8 @@ class SambaPaTuiRadio < Formula
 
   desc "Terminal UI for searching, playing and favoriting internet radio stations"
   homepage "https://codeberg.org/n_malo/samba_pa_tui_radio"
-  url "https://codeberg.org/n_malo/samba_pa_tui_radio/archive/v0.1.1.tar.gz"
-  sha256 "9f203959f3645729fa62b40c1060a9e1956cced719b398522c7a0bda9d76fb99"
+  url "https://codeberg.org/n_malo/samba_pa_tui_radio/archive/v0.1.2.tar.gz"
+  sha256 "251894847dc86fe9d85137487983906ca7df40d6a4417a5ac84ab74aa337435b"
   license "MIT"
 
   depends_on "python@3.13"

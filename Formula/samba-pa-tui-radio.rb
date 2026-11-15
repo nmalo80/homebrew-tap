@@ -3,12 +3,13 @@ class SambaPaTuiRadio < Formula
 
   desc "Terminal UI for searching, playing and favoriting internet radio stations"
   homepage "https://codeberg.org/n_malo/samba_pa_tui_radio"
-  url "https://codeberg.org/n_malo/samba_pa_tui_radio/archive/v0.1.3.tar.gz"
-  sha256 "60e13a3c238196cf1fc3dff553a7ca3646c00168720566279efdd55becf45466"
+  url "https://codeberg.org/n_malo/samba_pa_tui_radio/archive/v0.1.4.tar.gz"
+  sha256 "55dec1ed549835e14a7941e9af359d67e514ee7c78c84043d68e214d4f0a0226"
   license "MIT"
 
   depends_on "python@3.13"
   depends_on "mpv"
+  depends_on "yt-dlp"
 
   resource "anyio" do
     url "https://files.pythonhosted.org/packages/61/cc/a381afa6efea9f496eff839d4a6a1aed3bfafc7b3ab4b0d1b243a12573dd/anyio-4.14.2.tar.gz"
